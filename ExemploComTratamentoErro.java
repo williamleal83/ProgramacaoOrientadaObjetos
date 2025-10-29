@@ -1,0 +1,55 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+// Este código POSSUI tratamento de erros.
+public class ExemploComTratamentoErro {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String[] vect;
+        int opcao = 0;
+        int posicao = 0;
+
+        do {
+            System.out.println("\nEscolha uma opcao:");
+            System.out.println("1 - Informar os nomes");
+            System.out.println("2 - Sair");
+
+            try {
+                // Lê a opção do menu
+                opcao = sc.nextInt();
+
+                // Consome o "\n" (Enter) pendente
+                sc.nextLine();
+
+                if (opcao == 1) {
+                    System.out.println("Digite os nomes separados por espaco.");
+                    vect = sc.nextLine().split(" ");
+
+                    System.out.println("Digite a posicao do nome.");
+                    posicao = sc.nextInt();
+
+                    // Imprime o nome na posição escolhida
+                    System.out.println("Nome: " + vect[posicao]);
+                }
+
+                // Agora os blocos 'catch' estão ativados e dentro do loop
+            } catch (ArrayIndexOutOfBoundsException e) {
+                // Ocorre se 'position' for maior que o tamanho de 'vect'
+                System.out.println("Erro: Posição inválida. Tente novamente.");
+
+            } catch (InputMismatchException e) {
+                // Ocorre se o usuário digitar letras onde números são esperados
+                System.out.println("Erro: Entrada inválida. Digite um número e não caracteres.");
+
+                // Limpa o buffer de entrada para evitar um loop infinito no catch
+                sc.nextLine();
+            }
+
+            // O loop continua ENQUANTO a opção for diferente de 2
+        } while (opcao != 2);
+
+        System.out.println("Final do programa.");
+        sc.close();
+    }
+}
