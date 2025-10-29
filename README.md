@@ -7,6 +7,8 @@ Essa abordagem promove a criação de softwares mais flexíveis, reutilizáveis 
 
 # ⚡️ Nome do Projeto/Repositório
 Repositório dos códigos desenvolvidos nas aulas de POO.
+Professor: William Leal
+Email: willianleal@gmail.com
 
 ## 📝 Descrição
 Este é repositório possui códigos desenvolvidos nas aulas de Programação Orientada a Objetos do curso de Análise e Desenvolvimento de sistemas.
