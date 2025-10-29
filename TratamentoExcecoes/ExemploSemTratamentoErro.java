@@ -1,3 +1,4 @@
+package TratamentoExcecoes;
 import java.util.Scanner;
 
 // Este código NÃO POSSUI tratamento de erros.
