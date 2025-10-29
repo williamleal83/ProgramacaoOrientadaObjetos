@@ -6,8 +6,8 @@ Essa abordagem promove a criação de softwares mais flexíveis, reutilizáveis 
 ✨Bora estudar! 🧠🤯👨🏻‍🎓📚👩🏻‍🎓
 
 # ⚡️ Nome do Projeto/Repositório
-Repositório dos códigos desenvolvidos nas aulas de POO.
-👨🏻‍🏫 Professor: William Leal
+Repositório dos códigos desenvolvidos nas aulas de POO.\
+👨🏻‍🏫 Professor: William Leal\
 📧 Email: willianleal@gmail.com
 
 ## 📝 Descrição
