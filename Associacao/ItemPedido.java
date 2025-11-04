@@ -18,10 +18,10 @@ class ItemPedido {
     @Override
     public String toString() {
         return "\nItemPedido{" +
-                "\n - idItem=" + idItem +
-                "\n - descricao='" + descricao + '\'' +
-                "\n - quantidade=" + quantidade +
-                "\n - valorUnitario=" + valorUnitario +
+                "\n - idItem: " + idItem +
+                "\n - descricao: " + descricao +
+                "\n - quantidade: " + quantidade +
+                "\n - valorUnitario: " + valorUnitario +
                 "\n - total=" + calcularTotal() + "}\n";
     }
 }
