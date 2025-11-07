@@ -5,9 +5,10 @@ Essa abordagem promove a criação de softwares mais flexíveis, reutilizáveis 
 
 ✨Bora estudar! 🧠🤯👨🏻‍🎓📚👩🏻‍🎓
 
-# ⚡️ Nome do Projeto/Repositório
-Repositório dos códigos desenvolvidos nas aulas de POO.\
+# ⚡️ Exemplos básicos de Programação orientada a Objetos
+Repositório dos códigos desenvolvidos para as aulas de POO do curso de Análise e Desenvolvimento de Sistemas da Faminas - Muriaé.\
 👨🏻‍🏫 Professor: William Leal\
+📧 Email: william.junior@professor.faminas.edu.br\
 📧 Email: willianleal@gmail.com
 
 ## 📝 Descrição
