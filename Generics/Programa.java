@@ -1,5 +1,3 @@
-import javax.print.PrintService;
-
 public class Programa {
 
     public static void main(String[] args) {
@@ -34,6 +32,8 @@ public class Programa {
         System.out.println("Impressao de alguma coisa:");
         System.out.println(printer4.getAlgoParaImprimir());
 
+        System.out.println("------------------------------");
+
         Impressao<String> printer5 = new Impressao<>("Generics em Java");
 
         System.out.println("Impressao de alguma coisa:");
@@ -54,6 +54,8 @@ public class Programa {
         // Usando com Long
         Calculadora<Long> calcLong = new Calculadora<>(100L);
         System.out.println("Dobro de 100 = " + calcLong.dobro());
+
+        System.out.println("------------------------------");
 
         // Lista Genérica
         System.out.println("--- Lista Genérica ---");
