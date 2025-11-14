@@ -1,3 +1,5 @@
+import javax.print.PrintService;
+
 public class Programa {
 
     public static void main(String[] args) {
@@ -52,6 +54,20 @@ public class Programa {
         // Usando com Long
         Calculadora<Long> calcLong = new Calculadora<>(100L);
         System.out.println("Dobro de 100 = " + calcLong.dobro());
+
+        // Lista Genérica
+        System.out.println("--- Lista Genérica ---");
+        ImpressaoLista<Integer> listaInteiro = new ImpressaoLista<>();
+
+        int n = 10;
+
+        for (int i = 0; i < n; i++) {
+            listaInteiro.adicionaValor(i);
+        }
+
+        listaInteiro.imprimir();
+        Integer x = listaInteiro.primeiro();
+        System.out.println("Ultimo: " + x);
 
     }
 }
